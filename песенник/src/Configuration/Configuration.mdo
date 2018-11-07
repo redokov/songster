@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a32f869-b7ee-4d98-8e2d-887a99899795">
+  <name>Песенник</name>
+  <comment></comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="98040bd5-9db3-4276-9529-440621f312d2"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="fa0496de-5a93-4fb9-a3e6-f941ebdf7a2e"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="4fc793f4-608a-43d3-9c51-c45da012b9bb"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="5c8f1cbb-47b0-4ee9-bcc1-f145cba5fdaa"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="3f5c0061-31c1-4d7c-8bfb-fb292c6b0a45"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="1f14dfbb-3ed5-4f34-97c7-35fa01cf1346"/>
+  <namePrefix></namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.12</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>MobileDevice</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor></vendor>
+  <version>1.0</version>
+  <updateCatalogAddress></updateCatalogAddress>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>UseWithWarnings</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <interfaceCompatibilityMode>Version8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.12</compatibilityMode>
+  <languages uuid="9dfbc71c-edde-4b1f-8cd3-140b93339651">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <comment></comment>
+    <languageCode>ru</languageCode>
+  </languages>
+  <catalogs>Catalog.Песни</catalogs>
+</mdclass:Configuration>

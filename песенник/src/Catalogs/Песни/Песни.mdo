@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0d01cc1-127c-4669-a79c-84b4781f536d">
+  <producedTypes>
+    <objectType typeId="a38ae0d0-ad73-46b1-af72-9cd4601565c6" valueTypeId="1ae3dec1-e671-4aa7-b155-3decabdfb264"/>
+    <refType typeId="189995e8-472c-4658-baa0-7530051a2405" valueTypeId="22efe28a-431e-4bb6-ac06-55ce2b5f465b"/>
+    <selectionType typeId="36afb751-1146-49c3-a3f2-dc3ac31109b6" valueTypeId="5f3dfa66-8fe2-485f-b6a1-b6ec0f27b648"/>
+    <listType typeId="bb465c90-9208-40c5-ba1e-cc4aed8f9065" valueTypeId="aca7760d-73f0-4303-b469-f7dbc8846822"/>
+    <managerType typeId="f0a86daa-b1b9-4da4-aa20-8e38fd5b3cd4" valueTypeId="aa951528-926e-40b7-b1b2-c30e23c3eab7"/>
+  </producedTypes>
+  <name>Песни</name>
+  <synonym>
+    <key>ru</key>
+    <value>Песни</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Песни.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Песни.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="9c8285ba-bc2c-405e-9499-e41e601924bc">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6f49d1b3-33c5-4fd7-9d7b-60b178ba6a41">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d742e684-d407-41d8-b0e7-d7cad1176ad8">
+    <name>Композитор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Композитор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d6d7d753-9dda-447b-aaff-6b2ed25e5b13">
+    <name>ТекстПесни</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст песни</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
