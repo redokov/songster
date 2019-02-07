@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a32f869-b7ee-4d98-8e2d-887a99899795">
   <name>Песенник</name>
+  <synonym>
+    <key>ru</key>
+    <value>Песенник</value>
+  </synonym>
   <comment></comment>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="98040bd5-9db3-4276-9529-440621f312d2"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="fa0496de-5a93-4fb9-a3e6-f941ebdf7a2e"/>
@@ -13,15 +17,14 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
-  <vendor></vendor>
-  <version>1.0</version>
+  <vendor>ERP Band</vendor>
+  <version>1.0.1</version>
   <updateCatalogAddress></updateCatalogAddress>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
-  <modalityUseMode>UseWithWarnings</modalityUseMode>
+  <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
-  <interfaceCompatibilityMode>Version8_2</interfaceCompatibilityMode>
   <compatibilityMode>8.3.12</compatibilityMode>
   <languages uuid="9dfbc71c-edde-4b1f-8cd3-140b93339651">
     <name>Русский</name>
@@ -33,4 +36,5 @@
     <languageCode>ru</languageCode>
   </languages>
   <catalogs>Catalog.Песни</catalogs>
+  <dataProcessors>DataProcessor.ЗагрузкаПесенСДиска</dataProcessors>
 </mdclass:Configuration>

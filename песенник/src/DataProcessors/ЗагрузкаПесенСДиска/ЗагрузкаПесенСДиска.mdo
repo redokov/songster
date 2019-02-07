@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e19609fb-2896-4865-82e7-21d1d04af962">
+  <producedTypes>
+    <objectType typeId="156ea31b-fcf5-46a5-8cee-96b7c19f5666" valueTypeId="bbd3ca08-a759-4c2b-b1c6-1df926391114"/>
+    <managerType typeId="01a53a6b-4e0f-49f9-b1c9-e398da5e4021" valueTypeId="10669034-c6e1-47d9-90e8-522c83308d3f"/>
+  </producedTypes>
+  <name>ЗагрузкаПесенСДиска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка песен с диска</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаПесенСДиска.Form.Форма</defaultForm>
+  <forms uuid="697d8193-9915-4549-8f7a-d9ffe2503b30">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
