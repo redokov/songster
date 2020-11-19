@@ -9,7 +9,6 @@
     <key>ru</key>
     <value>Загрузка песен с диска</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ЗагрузкаПесенСДиска.Form.Форма</defaultForm>
   <forms uuid="697d8193-9915-4549-8f7a-d9ffe2503b30">
@@ -18,7 +17,6 @@
       <key>ru</key>
       <value>Форма</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
