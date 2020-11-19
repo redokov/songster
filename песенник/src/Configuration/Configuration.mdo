@@ -36,5 +36,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <catalogs>Catalog.Песни</catalogs>
+  <catalogs>Catalog.ПоказателиМониторинга</catalogs>
   <dataProcessors>DataProcessor.ЗагрузкаПесенСДиска</dataProcessors>
+  <informationRegisters>InformationRegister.ЗначенияПоказателейМониторинга</informationRegisters>
 </mdclass:Configuration>
